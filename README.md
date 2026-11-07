@@ -1,6 +1,12 @@
-## Arhslavek - Very old and niche Slavic Names
+# arhslavek
 
-I am TIRED of searching everywhere to collect archaic slavic given names so I decided to make a centralized place for it myself..
+A centralized repository and index for archaic, obsolete, and niche Slavic given names.
+
+## Purpose
+
+Finding authentic, pre-Christian, and early medieval Slavic personal names requires digging through scattered historical chronicles, regional baptismal registries, etymological dictionaries, and obscure academic papers. 
+
+`arhslavek` exists to solve that problem. Instead of searching across dozens of fragmented sources, this project gathers rare Slavic anthroponyms into a single, structured, and accessible archive.
 
 # Features
 
@@ -8,46 +14,37 @@ I am TIRED of searching everywhere to collect archaic slavic given names so I de
 - **Unique Names:** Invented or niche names
 - **Find what names you want:** literally simple as that
 
-# Quick Start
+## Scope
 
-1. **Download the files:**
+This collection focuses specifically on:
+* **Archaic & Obsolete Names:** Given names that have fallen out of common modern usage.
+* **Dithematic & Monothematic Roots:** Traditional compound names (e.g., *Vseslav*, *Dobrava*, *Ratibor*) as well as older hypocoristic and single-root forms (e.g., *Ždan*, *Bujan*, *Tugomir*).
+* **Pan-Slavic Coverage:** Attested names spanning East, West, and South Slavic linguistic traditions, including Old Church Slavonic, Old East Slavic, Old Polish, Old Czech, and medieval South Slavic records.
+* **Protective & Descriptive Names:** Traditional apotropaic names given to ward off misfortune or describe birth order and traits (e.g., *Nekras*, *Bezobraz*, *Pervush*).
 
-```
-Download the .md files of whatever you want.
-```
+## Structure
 
-2. **Install dependencies (if applicable):**
+Each entry in the archive is documented with the following details where historical records permit:
+* **Name:** Standardized transliteration alongside original Cyrillic, Glagolitic, or Latin script attestations.
+* **Gender:** Masculine, feminine, or attested for both.
+* **Etymology & Meaning:** Breakdown of the Slavic root words and literal translation.
+* **Origin & Region:** Specific Slavic branch or historical territory (e.g., Novgorod birch bark manuscripts, Dalmatian charters, Bohemian chronicles).
+* **Earliest Attestation:** Approximate century or specific historical document where the name appears.
+* **Variants:** Diminutives, patronymic forms, and regional spelling variations.
 
-```
-get Github first tho.
-```
+## Usage
 
+Browse the directory files by linguistic branch, alphabetical index, or root etymology. If you are using the raw data files (CSV/JSON) for linguistic research, historical fiction, or worldbuilding, refer to the schema documentation in the `/docs` directory.
 
-3. **Run the project:**
+## Contributing
 
-```
-then run it.
-```
+Contributions are welcome, provided they adhere to historical accuracy. Modern neo-pagan fabrications and unattested folk etymologies are excluded from the main archive.
 
+To submit a name or correction:
+1. Ensure the name is documented in a verifiable historical, linguistic, or onomastic source.
+2. Include the primary source citation, region, and approximate date of attestation.
+3. Submit a pull request following the formatting template in `CONTRIBUTING.md`.
 
-The application will now be running on ```Github.```
+## License
 
-# Contributing
-
-Contributions are what make the open source community such an amazing place. Any contributions you make are greatly appreciated.
-
-1. Fork the Project
-
-2. Create your Feature Branch
-
-3. Commit your Changes
-
-4. Push to the Branch
-
-5. Open a Pull Request
-
-# License
-
-Distributed under the MIT License. See ```LICENSE.txt``` for more information.
-
-(Made with ❤️ by [Klingri] for the Open Source Community)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
